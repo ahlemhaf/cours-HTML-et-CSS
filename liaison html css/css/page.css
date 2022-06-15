@@ -1,0 +1,16 @@
+h1,h2{
+    color: red;
+}
+.p4{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(179, 186, 187);
+    padding: 10px 20px;
+    
+}
+#oui{
+    margin: 15px auto;
+    width: 250px ; 
+}
+/*ou on peut le faire comme ça :
+margin: 15px 230px;*/

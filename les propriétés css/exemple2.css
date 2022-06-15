@@ -1,0 +1,111 @@
+body{
+    /*font-family: permet de modifier la police de notre écriture */
+    font-family: 'Open Sans', sans-serif; /* pour la police */
+
+background-color: rgb(148, 143, 141);
+border-width: 10px;
+border-style:solid;
+border-color: crimson;
+/*pour faire une bordure arrondi du coin droite en haut et un bordure arrrondi en coin bas droite */
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+border-top: 70px;/* la bordure en haut */
+border-left: 100px;
+}
+    
+/*on peut utiliser les polices Google 'google font' , 
+1- faire une copie du lien dans notre page html
+2' faire une copie de la propriété dans la page css  */
+
+h1{                
+    font-size: 50px;     /* pour la taille*/
+    font-style: italic;  /*modififier le style*/
+    font-weight: normal; /*la poids */
+    color: #FF0000;
+  text-align:center;
+  text-transform: uppercase;
+  text-shadow: 4px 0px 3px violet;
+  /*pour faire une bordure uniquement en haut de l'élément*/
+  border-top-width: 5px;
+  border-top-style: ridge ;
+  border-top-color: chartreuse;
+ 
+}
+p{
+    font-size: 15px;
+    font-style: oblique;
+    font-weight: 100; 
+    color: #FF0;
+    text-align: right;
+    text-transform: lowercase;
+    
+
+}
+h2{
+    color: rgb(255, 000, 000);
+    text-transform: capitalize;
+   text-indent :100px; 
+      /*-100px : vers la gauche   100px : vers la droite */
+    border-bottom: 2px solid black ; /* bordure uniquement en bas de notre element */
+
+
+}
+h3{
+    color: rgba(000, 000, 255,0.8);
+    /*ou on peut écrire l'opacité avec la maniére suivante
+    color: rgb(255, 000, 000)
+    opacity=0.5; */
+
+    text-shadow:2px -4px 5px crimson ;
+    /*la 1ere valeur: déplacement horizentale de l'ombre : si elle est +: deplacement vers la droite   
+                                                           si elle est -: deplac vers la gauche 
+                                                        
+    la 2eme valeur : déplacement verticale de l'ombre : si elle est +: deplac vers le bas
+                                                        si elle est -: deplac vers le haut
+                                                        
+    la 3eme valeur : c'est la surface sur laquelle se deplace l'ombre 
+    4eme valeur : c'est la couleur de l'ombre */
+    text-align: right;
+    letter-spacing: -20px; 
+    word-spacing:5px ; 
+    
+}
+a{
+    text-decoration: none;
+}
+/*la propriété text-align pour l'alignement du texte contient 5 valeurs: center, left,right,justify,inherit*/
+/*la propriété texte-transform : mettre un texte : upperase, lowercase ,capitallize */
+/*la propriété text-decoration: underline, overline(ligne au dessus du texte) ,line-through(ligne barré sur le texte),inherit,initial,none*/
+/*la propriété text-indent:gérer l'annotation d'un texte*/
+/*les deux propriétés text-align et text_indent ne fonctionnet pas les deux en meme temps */
+
+
+/*line-height: c'est l'espace verticale entre les lignes 
+letter-spacing : c'est l'espace entre les caracteres , il est positif sinon on va écrire de droite vers la gauche 
+word-spacing : l'espacement entre les mots */
+
+.div-1{
+height: 300px; /*l'hauteur */
+width: 50%;/* la largeur 
+le pourcentage herite la propriété parent  */
+background-color: darkgoldenrod;
+/*pour la bordure */
+border-width: 2px; /*l'epaisseur de la bordure */
+border-style: solid;
+border-color: chartreuse;
+border-radius: 20px; /*bordure arrondi de 20px*/
+/*pour la bordure de notre element div-1*
+il existe 8 styles de bordures */
+
+}
+p{
+    border: 2px solid black;
+}
+.p1{
+    display: inline-block;
+    width: 30px;
+}
+.p2{
+    display: inline-block;
+    width:50px;
+}

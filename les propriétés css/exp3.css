@@ -1,0 +1,55 @@
+body{
+    font-family:'Open sans',sans-serif;
+    background-color: violet;
+}
+.div-2{
+    height: 300px;
+    width: 500px; 
+    background-color: rgb(125, 90, 180);
+    border: 5px  ridge rgb(22, 20, 20);/* ridge:une bordure avec un effet 3d*/ 
+    border-top-left-radius: 20px ;
+    border-bottom-right-radius: 20px;
+    padding: 40px; /*les marges interieurs repoussent le contenu d'un élément de sa bordure :
+     40px vers le bas et 40px vers la droite  car le contenu est définit à partir 
+    du coin supèrieur gauche de son element parent*/
+
+    margin: 100px auto; /*auto pour centraliser le div par rapport à son élément parent qui est body*/
+    
+   
+    box-shadow: 10px 5px 20px black; /*pour l'ombre de la bordure*/
+    
+
+} 
+span{
+    display:block ;
+    border: 5px solid black;
+}
+
+.p2{
+    border: 5px solid black;
+    border-radius: 5px;
+    background-color: aqua;
+   display: inline-block;
+}
+
+.p3{
+   display: 
+   block;
+    border: 3px solid black;
+    background-color: blueviolet;
+  
+
+}
+p{
+  
+    display: inline ; /*inline : les paragraphes sont l'un à coté de l'autre en meme ligne*/
+    border: 3px solid black;
+    
+}
+
+
+/*inline-block: permet de mettre deux elements en ligne toute en maitrisant precisément leurs tailles */
+
+/* la valeur none permet de ne pas afficher un element on ecrit exp:
+.p4{
+    display:none } il ne s'affiche pas */

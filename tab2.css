@@ -1,0 +1,25 @@
+body{
+    font-family:'Open sans',sans-serif;
+}
+table{
+    border-collapse: collapse;
+}
+thead th , tfoot td{
+background-color: rgb(214, 44, 14); /*les selecteurs thead th et tfoot td sont plus précis que les 
+                                    sélécteurs tr*/
+color: aliceblue;
+text-transform: lowercase;
+}
+th,td{
+    border: 2px solid black;
+    padding: 10px;
+}
+th{
+    font-weight: normal;
+}
+tr:nth-child(even){   /*pour les lignes paires*/
+    background-color: rgb(250, 96, 25);
+}
+tr:nth-child(odd){  /*pour les lignes impaires*/
+    background-color: rgb(121, 23, 233);
+}

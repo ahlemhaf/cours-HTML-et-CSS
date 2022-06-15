@@ -1,0 +1,29 @@
+body{
+    font-family: 'open sans ',sans-serif;
+
+
+}
+#fb ,#tw ,#lk {
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: absolute;
+
+}
+#fb{
+    background-image: url("social-media-icongs-0.png");
+    background-repeat: no-repeat;
+    background-position: -20px 0px;
+
+}
+#tw{
+    background-image: url("social-media-icon-pngs-0.png");
+  
+    background-position: -200px 0px;
+    left: 400px;
+}
+#lk{
+    background: url("social-media-icon-pngs-0.png") 200px 0px ;
+
+    left: 400px;
+}

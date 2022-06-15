@@ -1,0 +1,18 @@
+.div-a{
+    background-color: yellow;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 15px 500px;
+
+}
+.span-a{
+    color: tomato;
+    background-color: turquoise;
+    font-weight: bold;
+ 
+}
+.span-b{
+    color: blue;
+    background-color: blueviolet;
+}

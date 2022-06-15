@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- saved from url=(0070)http://127.0.0.1:5500/les%20propri%C3%A9t%C3%A9s%20css/challenge5.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>formulaire</title>
+        
+        <link rel="stylesheet" href="./formulaire_files/challenge5.css">
+    </head>
+    <body>
+        <label for="nom"> Nom</label>
+        <input type="text" id="nom" name="nom" placeholder="votre nom"><br>
+
+        <label for="prenom"> Prenom</label>
+        <input type="text" id="prenom" name="prenom" placeholder="votre prenom"><br>
+
+        <label for="commentaire"> commentaire</label><br>
+    <textarea id="commentaire" name="commentaire" placeholder="taper votre commentaire ici .... "></textarea><br>
+
+        <label for="date de naissance "> date de naissance </label>
+    <input type="number" id="date de naissance" name="date de naissance">
+    <input type="month" id="date de naissance" name="date de naissance">
+    <input type="number" id="date de naissance" name="date de naissance">
+    
+    <br>
+
+    <input type="radio" id="homme" name="sexe" value="homme">
+    <label for="homme"> un homme</label> 
+
+    <input type="radio" id="femme" name="sexe" value="femme">
+    <label for="femme">une femme</label><br>
+
+    <input type="radio" id="HTML" name="HTML" value="HTML">
+    <label for="HTML"> HTML</label>
+    <input type="radio" id="CSS" name="CSS" value="CSS"> 
+    <label for="CSS">CSS</label>
+    <input type="radio" id="Javascript" name="Javascript" value="Javascript">
+    <label for="Javascript">Javascript</label><br>
+
+    
+    <label for="mail"> E-mail</label>
+    <input type="email" id="mail" name="email" placeholder="taper votre email ici"><br>
+
+    
+    <label for="mot de passe"> password</label>
+    <input type="password" id="mot de passe " name="password" placeholder="taper votre mot de passe ici "><br>
+
+    <label for="date de naissance "> date de naissance </label>
+    <input type="number" id="date de naissance" name="date de naissance"><br>
+
+    <label for="image"> choisir un fichier</label>
+    <input type="file" id="image" name="une image"><br>
+
+    <label for="nb enfants"> nombre d'enfant </label>
+    <input type="number" id="nb enfants" name="nombre" placeholder="tapper un nombre ici "><br>
+
+    
+    <label for="couleur"> couleur</label>
+    <input type="color" id="couleur" name="une couleur"><br>
+
+    <label for="date "> date </label>
+    <input type="date" id="date " name="date"><br>
+
+    <input type="submit" value="envoyer">
+    <input type="submit" value="vider les champs">
+
+
+
+    
+
+    
+
+    
+    <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>

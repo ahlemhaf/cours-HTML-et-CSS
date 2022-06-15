@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- saved from url=(0070)http://127.0.0.1:5500/les%20propri%C3%A9t%C3%A9s%20css/challenge6.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title> les formulaires </title>
+    
+    
+
+<link rel="stylesheet" href="./les formulaires_files/challenge6.css"></head><body>
+
+
+
+    <fieldset id="A1">
+        <legend> VOS DONNEES PERSONNELLES</legend>
+    <label for="nom"> Nom</label>
+    <input type="text" id="nom" name="nom" placeholder="votre nom"><br>
+
+    <label for="prenom"> Prenom</label>
+    <input type="text" id="prenom" name="prenom" placeholder="votre prenom"><br>
+
+    
+    <label for="date de naissance "> date de naissance </label>
+    <input type="number" id="date de naissance" name="date de naissance"><br>
+
+<fieldset id="A2">
+    <legend>Lieu de naissance</legend>
+    <input type="radio" id="lieu" name="lieu" value="Seine-Saint-Denis">
+    <label for="lieu">Seine-Saint-Denis</label>
+     
+    <input type="radio" id="lieu" name="monde" value="reste du monde ">
+    <label for="lieu">reste du monde</label><br>
+</fieldset>
+    <label for="adresse"> adresse postale</label>
+    <input type="text" id="adresse" name="adresse" placeholder="votre adresse"><br>
+
+    <label for="adresse"> code postal</label>
+    <input type="number" id="adresse" name="adresse" placeholder="93000"><br>
+
+    <label for="adresse"> adresse éléctronique</label>
+    <input type="text" id="adresse" name="adresse" placeholder="votre adresse electronique"><br>
+
+    <label for="page"> page personnelle</label>
+    <input type="text" id="page" name="page" placeholder="votre page web"><br>
+
+    <label for="num"> telephone portable</label>
+    <input type="number" id="num" name="num" placeholder="0601234567"><br>
+
+   <fieldset id="A3">
+       <legend> CONNAISSANCES </legend>
+    <input type="checkbox" name="a" id="a" value="HTML">
+    <label for="A&gt;"> HTML</label>
+    <input type="checkbox" name="B" id="B" value="CSS" checked="checked">
+    <label for="B">CSS</label>
+    <input type="checkbox" name="C" id="C" value="formulaires">
+    <label for="C">formulaires</label>
+    <input type="checkbox" name="C" id="C" value="javascript">
+    <label for="C">javascript</label><br>
+</fieldset> 
+
+
+    <input type="submit" value="envoyer">
+</fieldset>
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>

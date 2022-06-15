@@ -1,0 +1,45 @@
+
+/*il ya 4 types de positions :static , relative , fixed, absolute */
+
+body{
+    font-family: 'open sans ',sans-serif;
+}
+.div-3{
+    background-color: rgb(165, 98, 129);
+    position: fixed; 
+    height: 400px;
+    width: 500px;
+    top: 50px;
+    left: 150px;
+z-index: 100;
+
+}
+.h2{
+    position: absolute; /*la position absolute s'applique relativement par rapport à son élément parent */
+    bottom: 0px;
+    right: 0px;
+}
+.p1{
+    position: static; /*la valeur static est la valeur par defaut donc
+     les propriétés top bottom left right ne fonctionnent pas */
+}
+.p2{
+    position: relative; 
+    left: 50%;
+}
+h1{
+    position: absolute;
+    top: 10px;
+    left: 130px;
+    z-index: 2000;
+    
+}
+.h2{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+/* la propriété z-index pour eviter le chevauchement : 
+on donne une valeur plus elevé à l'élément qu'on souhaite apparaitre au dessus */
+
+

@@ -1,0 +1,33 @@
+body{
+    font-family:'open sans ',sans-serif;
+    
+}
+h1{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    font-family: verdana , sans-serif;
+
+    background-color: #fff;
+    background-image: url('coucher de soleil.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top left;
+}
+p{
+    font: italic normal 15px/30px verdana, sans-serif; /*équivalent à la premiére ecriture mais en gardant 
+                                                          le meme ordre des styles */
+
+background: #fff url('coucher de soleil.jpg') no-repeat scroll top left ; /*meme chose ici*/
+                                                          
+}
+/*pour les selecteurs en css :
+*** h1 , p{} : pour cibler les elements h1 et p
+*** div p {} : les paragraphes qui sont uniquement dans le div
+*** div + p{} : pour cibler les paragraphes qui suivent directement le div et de meme niveau que le div
+*** div > h2{} : pour cibler les titres qui suivent directement mon div
+*** div > p{} :cibler tout les paragraphes qui suivent mon div pas uniquement le paraghraphe qui suit directement div
+***      *{} :pour cibler tout les éléments 
+***  div[class] {}: pour cibler la classe avec tout ses elements dans le div
+*** div[class=div1]{} : cibler uniquement lles elements de la classe div1 */

@@ -1,0 +1,13 @@
+body{
+    font-family:'Open sans',sans-serif;
+
+}
+img{    /*l'image est un element de type inline cest pour quoi les deux images sont sur la meme ligne*/
+    width: 300px;
+  
+}
+.div1{
+    padding: 50px;
+    border: 5px solid black;
+    box-shadow: 5px 10px 20px blueviolet;
+}

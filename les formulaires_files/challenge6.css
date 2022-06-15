@@ -1,0 +1,40 @@
+body{
+    font-size: 13px;
+    font-family: verdana sans-serif ;}
+ 
+#A2 {
+padding: 10px 70px 10px 70px;
+margin: 40px 40px;
+}
+#A3{
+    color: red;
+    background-color: rgb(190, 189, 188);
+    height: 50px;
+}
+#A1 input{
+width: 200px;
+height: 20px;
+}
+#A1 label{
+display: inline-block;
+width: 190px;
+padding: 10px 0px 12px 10px;
+}
+#A2 input{
+    width: 20px;
+    height: 20px;
+}
+#A2 label{
+    display: inline-block;
+    width: 180px;
+    padding: 10px 0px 15px 10px; 
+}
+#A3 input {
+    width: 20px;
+    height: 20px;
+}
+#A3 label{
+    display: inline-block;
+    width: 180px;
+    padding: 10px 0px 15px 10px; 
+}

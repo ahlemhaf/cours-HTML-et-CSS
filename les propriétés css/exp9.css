@@ -1,0 +1,66 @@
+body{
+    font-family:'Open sans',sans-serif;
+}
+h1:hover{
+color: blue; /*la couleur lorsqu'on clique */
+}
+a:link{
+    color: gold;  /*lien n'est pas visité*/
+}
+a:visited{
+    color: brown; /*lien visité*/
+}
+/* p:nth-child(2){
+    color: purple;
+} */
+
+p:nth-child(even){
+    color: aqua;
+
+}
+p:nth-child(odd){
+    color: blue;
+}
+
+/*first child et last child fonctionnent uniquement dans le div et no fonctionne pas dans le body*/
+/*
+p:first-child{
+    color: blue;
+}
+
+ p:last-child{
+    color: red;
+}
+*/
+/*on a 5 pseudo éléments css*/
+/*
+p::first-letter{
+    font-size: large;
+    color:purple;
+    text-transform: uppercase;
+}
+p::first-line{
+    color: brown;
+}
+p::selection{
+  background-color: orangered;
+}
+*/
+
+/*
+div{
+    border: 5px solid black;
+}
+div::before{
+    content: "un texte avant mon élément div";
+}
+
+div::after{
+    content: url("coucher de soleil.jpg");
+}*/
+h1{
+   
+        transform: translate(0,100px);
+  
+    
+}

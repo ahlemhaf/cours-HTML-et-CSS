@@ -1,0 +1,36 @@
+body{
+    font-family: 'open sans ',sans-serif;
+  
+    background-color: black;
+    color: aliceblue;
+   
+}
+.p1{
+   
+    margin: 0% auto;
+ 
+   text-transform: uppercase;
+}
+.p5{
+ position:absolute;
+ top: 220px;
+ right: 0%;
+}
+   
+  
+h1,h2,h3{
+    background-color: rgb(236, 46, 20);
+    text-transform:uppercase;
+    color: antiquewhite;
+
+}
+span{
+    background-color: black;
+  
+}
+table{
+    width: 550px;
+}
+#num{
+    text-align: end;
+}

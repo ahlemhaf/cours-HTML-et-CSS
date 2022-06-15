@@ -1,0 +1,54 @@
+body{
+    font-family: 'open sans ',sans-serif;
+
+    background-image:  url("le chat.jpg") ;
+    background-repeat: no-repeat ; /* ne pas répéter ou repeter sur x ou y */
+    background-size: 25% ; /*taille de l'image par raport à sa largeur*/
+    background-attachment: scroll; /*fixed:pour fixer l'image sur la fenetre n'est pas sur la page
+                        scroll: pour fixer l'image sur la page*/
+  background-position: top left  ; /*pour le positionnement de l'image*/ 
+}
+.div-5{
+    height: 100px;
+    width: 140px;
+    background-color: blueviolet;
+    z-index: 100;
+    float: right; 
+    clear: left;/*  float:pour positionner un élément */
+    /*pour neutraliser le float:left de notre titre h1*/
+    /*clear : empecher les elements de se positionner au coté des éléments flottants*/
+
+  
+    overflow:auto; 
+    /*overflow: hidden;  hidden : tout le contenu qui dépasse va etre caché
+    overflow: scroll; pour créer une barre de défilemnt
+     overflow:auto:meme chose que scroll*/
+
+
+}
+.h1{
+z-index: 1000;
+float: left;
+background-color: rgba(200, 200, 000, 0.9); 
+
+
+
+}
+.p1{
+    float: right;
+    left: 50px;
+   
+  
+}
+.p2{
+    clear: right;
+}
+    /*pour aligner horizentalement un contenu dans une page html :
+    *1* avec la propriété : margin: px auto;
+    *2* avec la propriété position : position : absolute ;
+                                     right:30%;
+                                    left:30%;
+    *3*  avec la propriété text-align:center;*/
+    
+    
+  

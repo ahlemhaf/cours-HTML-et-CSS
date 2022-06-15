@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> les tableaux structurés </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="tab2.css">
+</head>
+
+<body>
+    <table>
+        <caption> les dépences </caption> <!-- caption : pour ajouter un titre à notre tableau -->
+
+        <thead>
+            <tr>
+                <th> mois</th>
+                <th> depense</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td>somme</td>
+                <td> 600</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td> janvier</td>
+                <td> 200</td>
+            </tr>
+            <tr>
+                <td> mars</td>
+                <td> 300</td>
+            </tr>
+            <tr>
+                <td> avril</td>
+                <td> 100</td>
+            </tr>
+            <tr>
+                <td rowspan="2"> adresse email </td>
+                                                    <!-- rowspan:lorsque un elemnent d'une  ligne
+                                                        contient deux valeurs en meme temps-->
+                <td>ahlemhafsouni044@gmail.com</td>
+            </tr>
+            <tr>
+                <td>ah.hf@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

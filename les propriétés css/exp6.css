@@ -1,0 +1,18 @@
+body{
+    font-family: 'open sans ',sans-serif;
+}
+
+ .div-6{
+    float:  right ;
+    height: 100px;
+    width: 200px;
+    background:-webkit-linear-gradient(#088,red, orange, blue); } /* degradation verticale*/
+    /* background: -webkit-linear-gradient(rgba(255,000,000,0.9),rgba(255,000,000,0.1)); degradation du rouge */
+/* background: -webkit-linear-gradient(left,greeN 10%,blue 30%,yellow 60%);enpourcentage */
+
+.div-2{
+float: left;
+height: 400px;
+width: 250px;
+background: -webkit-radial-gradient(circle, red, blue, greeN);
+}

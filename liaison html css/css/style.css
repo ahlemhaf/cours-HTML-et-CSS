@@ -1,0 +1,31 @@
+body{
+    background-color: blueviolet;
+    color: greenyellow;
+}
+/*je suis un commentaire mono-ligne*/
+
+/*je suis
+*un commentaire multiligne*/
+
+#p1{
+    color: deeppink;
+}
+.p2{
+    color: deepskyblue;
+    }
+    .p3{
+        color: gold;
+    }
+    /*id permet de cibler plus précisément un element que un attribut  classe*/
+    #non{
+        color: green;
+    }
+
+
+p6{
+    color: honeydew;
+    /*le type block*/
+    border: 1px solid black;
+
+}
+

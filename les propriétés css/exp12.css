@@ -1,0 +1,13 @@
+body{
+    width: 600px;
+}
+div , p {
+    width: 50%;
+    border: 5px solid black;
+}
+div{
+    background-color: palevioletred;
+}
+p{
+    background-color: aqua;
+}
